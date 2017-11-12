@@ -10,7 +10,6 @@ function callback(tabs) {
       background.prevTab = currentTab;
 
       function modifyDOM() {
-          //You can play with your DOM here or check URL against your regex
           console.log('Tab script:');
           console.log(document.body.innerHTML);
           return document.body.innerHTML;
